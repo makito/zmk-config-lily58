@@ -19,33 +19,23 @@
             bindings = <&kp ESC>;
         };
 
-        left_parenthesis {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <28 27>;
-        };
-
-        right_parenthesis {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <31 32>;
-        };
-
         left_brace {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 15>;
         };
 
         right_brace {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
         };
 
         left_bracket {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp LEFT_BRACE>;
             key-positions = <4 3>;
         };
 
         right_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp RIGHT_BRACE>;
             key-positions = <7 8>;
         };
     };
